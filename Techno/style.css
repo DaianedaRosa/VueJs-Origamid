@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #1a1a1a 30%, #fff 30%);
+  font-family: 'Noto Serif', serif;
+}
+
+#app {
+  padding: 0 80px;
+}
+
+/* Product List */
+.products {
+  max-width: 900px;
+  margin: 100px auto 0 auto;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  background: white;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.product-img {
+  max-width: 300px;
+  margin-right: 40px;
+}
+
+.product-title {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.product-price {
+  color: rgb(182, 182, 182);
+}
+
+/* Modal */
+.modal::before {
+  content: '';
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background: rgb(0, 0, 0, 0.5);
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 80px;
+}
+
+.modal-container {
+  position: relative;
+  background: linear-gradient(to right, transparent 250px, white 250px);
+  z-index: 1;
+  display: grid;
+  align-items: end;
+  grid-gap: 50px;
+  border-radius: 6px;
+  padding: 0px 50px 50px 0;
+  animation: fadeIn 0.3s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3D(50px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3D(0px);
+  }
+}
+
+.modal-img {
+  grid-column: 1;
+  margin-top: 50px;
+  border-radius: 14px;
+  box-shadow: 0px 3px 4px rgb(0, 0, 0, 0.1), 0px 4px 10px rgb(0, 0, 0, 0.2);
+}
+
+.modal-img img {
+  border-radius: 14px;
+
+  max-width: 300px;
+  display: block;
+}
+
+.modal-title {
+  font-size: 3rem;
+}
+
+.modal-btn {
+  margin-top: 80px;
+  background: #000;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 14px;
+  font-size: 1rem;
+  padding: 10px 25px;
+  font-family: 'Noto Serif', serif;
+}
+
+.modal-btn:active {
+  background: #808080;
+}
+
+.modal-data {
+  grid-column: 2;
+  max-width: 600px;
+}
+
+.modal-close {
+  border-radius: 50%;
+  border: 2px solid #000;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0px 3px 4px rgb(0, 0, 0, 0.1), 0px 4px 10px rgb(0, 0, 0, 0.2);
+}
+
+/* Reviews */
+.reviews {
+  grid-column: 2;
+}
+
+.review {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+
+.review-description {
+  font-size: 1.3rem;
+
+  color: rgb(0, 0, 0, 0.7);
+  margin: 20px 0 5px 0;
+}
+
+.review-user {
+  font-weight: bold;
+}
