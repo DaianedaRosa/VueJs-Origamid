@@ -3,6 +3,8 @@ const vm = new Vue({
   data: {
     products: [],
     product: false,
+    car: [],
+    carTotal: 0,
   },
   filters: {
     numberPrice(value) {
@@ -32,9 +34,12 @@ const vm = new Vue({
       })
     },
     closeModal({ target, currentTarget }) {
-      if (target === currentTarget) {
-        this.product = false
-      }
+      if (target === currentTarget) this.product = false
+    },
+    addItem() {
+      this.product.inventory--
+      const { id, name, price } = this.product
+      this.car.push({ id, name, price })
     }
   },
   created() {

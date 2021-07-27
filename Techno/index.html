@@ -16,30 +16,11 @@
   </head>
   <body>
     <div id="app">
-      <section class="modal" v-if="product" @click="closeModal">
-        <div class="modal-container">
-          <div class="modal-img">
-            <img :src="product.img" :alt="product.name" />
-          </div>
-          <div class="modal-data">
-            <button @click="product = false" class="modal-close">X</button>
-            <span class="modal-price"> {{product.price}} </span>
-            <h2 class="modal-title">{{product.name}}</h2>
-            <p>{{product.description}}</p>
-            <button class="modal-btn">Adicionar item</button>
-          </div>
-          <div class="reviews">
-            <ul>
-              <li v-for="review in product.reviews" class="review">
-                <p class="review-description">{{review.description}}</p>
-                <p class="review-user">
-                  {{review.name}} | {{review.stars}} estrelas
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      <header>
+        <img class="logo" src="./assets/techno.svg" alt="Techno" />
+        <div class="carrinho_menu">{{carTotal }} |</div>
+        {{car}}
+      </header>
 
       <section class="products">
         <div
@@ -52,6 +33,40 @@
           <div class="product-info">
             <span class="product-price">{{ item.price | numberPrice }}</span>
             <h2 class="product-title">{{item.name}}</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="modal" v-if="product" @click="closeModal">
+        <div class="modal-container">
+          <div class="modal-img">
+            <img :src="product.img" :alt="product.name" />
+          </div>
+          <div class="modal-data">
+            <button @click="product = false" class="modal-close">X</button>
+            <span class="modal-price"> {{product.price}} </span>
+            <h2 class="modal-title">{{product.name}}</h2>
+            <p>{{product.description}}</p>
+            <button
+              v-if="product.inventory > 0"
+              class="modal-btn"
+              @click="addItem"
+            >
+              Adicionar item
+            </button>
+            <button v-else class="modal-btn sold-out" disabled>
+              Produto Esgotado
+            </button>
+          </div>
+          <div class="reviews">
+            <ul>
+              <li v-for="review in product.reviews" class="review">
+                <p class="review-description">{{review.description}}</p>
+                <p class="review-user">
+                  {{review.name}} | {{review.stars}} estrelas
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
