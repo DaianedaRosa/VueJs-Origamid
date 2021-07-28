@@ -51,7 +51,7 @@
           </div>
           <div class="modal-data">
             <button @click="product = false" class="modal-close">X</button>
-            <span class="modal-price"> {{product.price}} </span>
+            <span class="modal-price"> {{product.price | numberPrice}} </span>
             <h2 class="modal-title">{{product.name}}</h2>
             <p>{{product.description}}</p>
             <button
@@ -77,6 +77,10 @@
           </div>
         </div>
       </section>
+
+      <div class="alert" :class="{active: alertActive}">
+        <p class="alert-message">{{messageAlert}}</p>
+      </div>
     </div>
     <script src="./app.js"></script>
   </body>

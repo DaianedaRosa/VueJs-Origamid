@@ -4,6 +4,8 @@ const vm = new Vue({
     products: [],
     product: false,
     car: [],
+    messageAlert: 'Item adicionado com sucesso',
+    alertActive: false
   },
   filters: {
     numberPrice(value) {
@@ -23,7 +25,16 @@ const vm = new Vue({
       return total
     }
   },
-
+  watch: {
+    product() {
+      document.title = this.product.name || 'Techno'
+      const hash = this.product.id || ''
+      history.pushState(null, null, `#${hash}`) // Criando uma rota com o Id dos produtos
+    },
+    car() {
+      window.localStorage.car = JSON.stringify(this.car) // Deixando salvo no local storage e transformando em string com stringfy
+    }
+  },
   methods: {
     fetchProducts() {
       fetch("./api/products.json")
@@ -53,12 +64,33 @@ const vm = new Vue({
       this.product.inventory--
       const { id, name, price } = this.product
       this.car.push({ id, name, price })
+      this.alert(`${name} adicionado ao carrinho.`) // Chamando o alert e passando cada nome de produto reativamente
     },
     removeItem(index) {
       this.car.splice(index, 1)
+    },
+    checkLocalStorage() {
+      if (window.localStorage.car) {
+        this.car = JSON.parse(window.localStorage.car) // Transformando de volta em array
+      }
+    },
+    alert(message) {
+      this.messageAlert = message
+      this.alertActive = true
+      setTimeout(() => {
+        this.alertActive = false
+      }, 1500) // Quanto tempo o alerta vai ficar na tela
+    },
+    router() {
+      const hash = document.location.hash // Da o hash que está na barra
+      if (hash) {
+        this.fetchProduct(hash.replace("#", "")) // Trocando o jogo da velha por nada
+      }
     }
   },
   created() {
     this.fetchProducts()
+    this.router()
+    this.checkLocalStorage()
   }
 });
