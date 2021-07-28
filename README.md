@@ -84,21 +84,13 @@ Códigos feitos no curso de VueJs da plataforma Origamid.
 <summary>
 Tecnologias 🚀 <a id="tecnologias"></a>
 </summary>
-<br/>
-
+    
 <h6>Esse projeto foi desenvolvido com as seguintes tecnologias:</h6>
 
-<!-- <div align="center"> -->
-
 [![HTML5](https://img.shields.io/badge/-HTML5-F06426?style=flat-square&logoColor=fff&logo=HTML5)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-
 [![CSS3](https://img.shields.io/badge/-CSS3-5DAFEF?style=flat-square&logoColor=fff&logo=CSS3)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
 [![JavaScript](https://img.shields.io/badge/-JavaScript-FEAE32?style=flat-square&logoColor=fff&logo=javascript)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
 [![VueJS](https://img.shields.io/badge/Vue.js-35495E?style=flat&logo=vuedotjs&logoColor=4FC08D)](https://br.vuejs.org/index.html)
-
-<!-- </div> -->
 
 </details>
 
@@ -127,11 +119,11 @@ Copyright © 2021.<br/>
 
 ### ℹ️ Informações do projeto <a id="info"></a>
 
-![visitor](https://visitor-badge.glitch.me/badge?page_id=savionascimentodev.VueJs-Origamid)
-![last-commit](https://img.shields.io/github/last-commit/savionascimentodev/VueJs-Origamid?&color=lightseagreen)
-![repo-size](https://img.shields.io/github/repo-size/savionascimentodev/VueJs-Origamid?&color=lightseagreen)
-<img src="https://img.shields.io/github/languages/count/savionascimentodev/VueJs-Origamid?color=lightseagreen&style=flat" alt="Linguagens">
-[![GitHub Repo stars](https://img.shields.io/github/stars/savionascimentodev/Projetos-FrontEnd?style=social)](https://github.com/savionascimentodev/VueJs-Origamid/stargazers)
+![visitor](https://visitor-badge.glitch.me/badge?page_id=savionascimentodev.VueJs-Origamid?color=purple)
+![last-commit](https://img.shields.io/github/last-commit/savionascimentodev/VueJs-Origamid?&color=purple)
+![repo-size](https://img.shields.io/github/repo-size/savionascimentodev/VueJs-Origamid?&color=purple)
+<img src="https://img.shields.io/github/languages/count/savionascimentodev/VueJs-Origamid?color=purple&style=flat" alt="Linguagens">
+[![GitHub Repo stars](https://img.shields.io/github/stars/savionascimentodev/VueJs-Origamid?style=social)](https://github.com/savionascimentodev/VueJs-Origamid/stargazers)
 
 ---
 
