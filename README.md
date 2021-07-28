@@ -1,5 +1,8 @@
-<img src="https://github.com/savionascimentodev/VueJs-Origamid/blob/main/assets/1525357092234.jpg"  width="550">
+<div align="center">    
+<img src="https://github.com/savionascimentodev/VueJs-Origamid/blob/main/assets/1525357092234.jpg"  width="70%" height="350px">
+</div>
 
+    
 <h1 align="center">🐺 Origamid VueJs 💜 <a id="top"></a> </h1> 
 
 <div align="center">
@@ -9,7 +12,6 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![VueJS](https://img.shields.io/badge/Vue.js-35495E?style=flat&logo=vuedotjs&logoColor=4FC08D)
-
 
 </div>
 
@@ -40,9 +42,9 @@ Códigos feitos no curso de VueJs da plataforma Origamid.
 
 ## 📍 Projetos <a id="projetos"></a>
 
-### Tela de Login
+<!-- ### Techno
 
-* Projeto desenvolvido para simular uma tela de login para estudos e treinamentos [Tela de Login](https://github.com/savionascimentodev/Projetos-FrontEnd/tree/main/Login)
+* Projeto desenvolvido para simular uma loja de informática, com compra de itens utilizando o vue in html nivel básico [Tela de Login](https://github.com/savionascimentodev/Projetos-FrontEnd/tree/main/Login)
 
 #### Desktop Screenshot:
 
@@ -66,7 +68,7 @@ Códigos feitos no curso de VueJs da plataforma Origamid.
 
 #### Desktop Screenshot:
 
-<img src="https://github.com/savionascimentodev/Projetos-FrontEnd/blob/main/StarDevs/img/Print-StarDevs.png" width="550">
+<img src="https://github.com/savionascimentodev/Projetos-FrontEnd/blob/main/StarDevs/img/Print-StarDevs.png" width="550"> -->
 
 ---
 
@@ -79,7 +81,8 @@ Códigos feitos no curso de VueJs da plataforma Origamid.
 
 ---
 
-### Tecnologias 🚀 <a id="tecnologias"></a>
+<details >
+    <sumary>Tecnologias 🚀 <a id="tecnologias"></a> </sumary>
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -100,6 +103,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [VueJs](https://br.vuejs.org/index.html)
 
 ---
+</details>
+
 
 ### 📫 Contribuindo para o projeto
 
