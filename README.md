@@ -2,8 +2,7 @@
 <img src="https://github.com/savionascimentodev/VueJs-Origamid/blob/main/assets/1525357092234.jpg"  width="70%" height="350px">
 </div>
 
-    
-<h1 align="center">🐺 Origamid VueJs 💜 <a id="top"></a> </h1> 
+<h1 align="center">🐺 Origamid VueJs 💜 <a id="top"></a> </h1>
 
 <div align="center">
 
@@ -23,7 +22,7 @@
     <a href="#license">Licença</a>
 </p>
 
-----
+---
 
 [🏠 Home](https://github.com/savionascimentodev/VueJs-Origamid)
 
@@ -33,10 +32,10 @@ Códigos feitos no curso de VueJs da plataforma Origamid.
 
 #### Descrições
 
-* Landing pages, formularios, menus, 
-* Vários cursos e projetos próprios,
-* Todos muito bem documentados.
-* Apis.
+- Landing pages, formularios, menus,
+- Vários cursos e projetos próprios,
+- Todos muito bem documentados.
+- Apis.
 
 ---
 
@@ -82,29 +81,28 @@ Códigos feitos no curso de VueJs da plataforma Origamid.
 ---
 
 <details >
-    <sumary>Tecnologias 🚀 <a id="tecnologias"></a> </sumary>
+<summary>
+Tecnologias 🚀 <a id="tecnologias"></a>
+</summary>
+<br/>
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+<h6>Esse projeto foi desenvolvido com as seguintes tecnologias:</h6>
 
-![HTML5](https://img.shields.io/badge/-HTML5-F06426?style=flat-square&logoColor=fff&logo=HTML5)
+<!-- <div align="center"> -->
 
-- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![HTML5](https://img.shields.io/badge/-HTML5-F06426?style=flat-square&logoColor=fff&logo=HTML5)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 
-![CSS3](https://img.shields.io/badge/-CSS3-5DAFEF?style=flat-square&logoColor=fff&logo=CSS3)
+[![CSS3](https://img.shields.io/badge/-CSS3-5DAFEF?style=flat-square&logoColor=fff&logo=CSS3)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-FEAE32?style=flat-square&logoColor=fff&logo=javascript)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-FEAE32?style=flat-square&logoColor=fff&logo=javascript)
+[![VueJS](https://img.shields.io/badge/Vue.js-35495E?style=flat&logo=vuedotjs&logoColor=4FC08D)](https://br.vuejs.org/index.html)
 
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+<!-- </div> -->
 
-![VueJS](https://img.shields.io/badge/Vue.js-35495E?style=flat&logo=vuedotjs&logoColor=4FC08D)
-
-- [VueJs](https://br.vuejs.org/index.html)
-
----
 </details>
 
+---
 
 ### 📫 Contribuindo para o projeto
 
@@ -122,18 +120,18 @@ Copyright © 2021.<br/>
 
 **Savio Nascimento**
 
-* [![Linkedin Badge](https://img.shields.io/badge/-SavioNascimento-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/savio-nascimento)](https://www.linkedin.com/in/savio-nascimento/) 
-* [![Github Badge](https://img.shields.io/badge/savionascimentodev-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/savionascimentodev)](https://github.com/savionascimentodev)
+- [![Linkedin Badge](https://img.shields.io/badge/-SavioNascimento-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/savio-nascimento)](https://www.linkedin.com/in/savio-nascimento/)
+- [![Github Badge](https://img.shields.io/badge/savionascimentodev-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/savionascimentodev)](https://github.com/savionascimentodev)
 
 ---
 
 ### ℹ️ Informações do projeto <a id="info"></a>
 
 ![visitor](https://visitor-badge.glitch.me/badge?page_id=savionascimentodev.VueJs-Origamid)
-![last-commit](https://img.shields.io/github/last-commit/savionascimentodev/VueJs-Origamid?&color=lightseagreen) 
-![repo-size](https://img.shields.io/github/repo-size/savionascimentodev/VueJs-Origamid?&color=lightseagreen) 
+![last-commit](https://img.shields.io/github/last-commit/savionascimentodev/VueJs-Origamid?&color=lightseagreen)
+![repo-size](https://img.shields.io/github/repo-size/savionascimentodev/VueJs-Origamid?&color=lightseagreen)
 <img src="https://img.shields.io/github/languages/count/savionascimentodev/VueJs-Origamid?color=lightseagreen&style=flat" alt="Linguagens">
-[![GitHub Repo stars](https://img.shields.io/github/stars/savionascimentodev/Projetos-FrontEnd?style=social)](https://github.com/savionascimentodev/VueJs-Origamid/stargazers) 
+[![GitHub Repo stars](https://img.shields.io/github/stars/savionascimentodev/Projetos-FrontEnd?style=social)](https://github.com/savionascimentodev/VueJs-Origamid/stargazers)
 
 ---
 
