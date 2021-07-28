@@ -68,14 +68,11 @@ body {
 }
 
 .product-price {
-  color: rgb(182, 182, 182);
-}
-
-.modal-btn.sold-out {
-  background: rgb(182, 182, 182);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* Modal */
+
 .modal::before {
   content: '';
   position: fixed;
@@ -153,6 +150,10 @@ body {
 
 .modal-btn:active {
   background: #808080;
+}
+
+.modal-btn.sold-out {
+  background: rgb(182, 182, 182);
 }
 
 .modal-data {
