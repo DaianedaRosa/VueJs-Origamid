@@ -39,7 +39,7 @@ Códigos feitos no curso de VueJs da plataforma Origamid.
 
 ---
 
-## 📍 Projetos <a id="projetos"></a>
+## 👾 Projetos <a id="projetos"></a>
 
 <!-- ### Techno
 
@@ -117,13 +117,21 @@ Copyright © 2021.<br/>
 
 ---
 
-### ℹ️ Informações do projeto <a id="info"></a>
+### 🔮 Informações do projeto <a id="info"></a>
 
-![visitor](https://visitor-badge.glitch.me/badge?page_id=savionascimentodev.VueJs-Origamid?color=purple)
+<div>
+  
+<img align="left" src="https://github.com/savionascimentodev/VueJs-Origamid/blob/main/assets/1525356724116.png" width="74px">
+<br>
+
+
 ![last-commit](https://img.shields.io/github/last-commit/savionascimentodev/VueJs-Origamid?&color=purple)
 ![repo-size](https://img.shields.io/github/repo-size/savionascimentodev/VueJs-Origamid?&color=purple)
 <img src="https://img.shields.io/github/languages/count/savionascimentodev/VueJs-Origamid?color=purple&style=flat" alt="Linguagens">
 [![GitHub Repo stars](https://img.shields.io/github/stars/savionascimentodev/VueJs-Origamid?style=social)](https://github.com/savionascimentodev/VueJs-Origamid/stargazers)
+
+</div>
+<br>
 
 ---
 
