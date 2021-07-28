@@ -4,13 +4,26 @@ const vm = new Vue({
     products: [],
     product: false,
     car: [],
-    carTotal: 0,
   },
   filters: {
     numberPrice(value) {
       return value.toLocaleString("pt-br", { style: "currency", currency: "BRL" })
     },
   },
+  computed: {
+    carTotal() {
+      let total = 0
+
+      if (this.car.length) {
+        this.car.forEach(item => {
+          total += item.price
+        })
+      }
+
+      return total
+    }
+  },
+
   methods: {
     fetchProducts() {
       fetch("./api/products.json")
@@ -40,6 +53,9 @@ const vm = new Vue({
       this.product.inventory--
       const { id, name, price } = this.product
       this.car.push({ id, name, price })
+    },
+    removeItem(index) {
+      this.car.splice(index, 1)
     }
   },
   created() {

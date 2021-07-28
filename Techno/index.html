@@ -18,8 +18,15 @@
     <div id="app">
       <header>
         <img class="logo" src="./assets/techno.svg" alt="Techno" />
-        <div class="carrinho_menu">{{carTotal }} |</div>
-        {{car}}
+        <div class="carrinho_menu">
+          {{ carTotal | numberPrice}} | {{car.length}}
+        </div>
+        <ul>
+          <li v-for="(item,index) in car">
+            <p>{{item.name}}</p>
+            <button @click="removeItem(index)">X</button>
+          </li>
+        </ul>
       </header>
 
       <section class="products">
