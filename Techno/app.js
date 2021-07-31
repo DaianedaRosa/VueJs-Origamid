@@ -4,6 +4,7 @@ const vm = new Vue({
     products: [],
     product: false,
     car: [],
+    carActive: false,
     messageAlert: 'Item adicionado com sucesso',
     alertActive: false
   },
@@ -30,6 +31,9 @@ const vm = new Vue({
       document.title = this.product.name || 'Techno'
       const hash = this.product.id || ''
       history.pushState(null, null, `#${hash}`) // Criando uma rota com o Id dos produtos
+      if (this.product) {
+        this.compareInventory()
+      } // Caso tenha algum produto ele compara o estoque
     },
     car() {
       window.localStorage.car = JSON.stringify(this.car) // Deixando salvo no local storage e transformando em string com stringfy
@@ -60,6 +64,9 @@ const vm = new Vue({
     closeModal({ target, currentTarget }) {
       if (target === currentTarget) this.product = false
     },
+    closeCarModal({ target, currentTarget }) {
+      if (target === currentTarget) this.carActive = false
+    },
     addItem() {
       this.product.inventory--
       const { id, name, price } = this.product
@@ -73,6 +80,10 @@ const vm = new Vue({
       if (window.localStorage.car) {
         this.car = JSON.parse(window.localStorage.car) // Transformando de volta em array
       }
+    },
+    compareInventory() {
+      const items = this.car.filter(({ id }) => id === this.product.id)
+      this.product.inventory -= items.length
     },
     alert(message) {
       this.messageAlert = message
