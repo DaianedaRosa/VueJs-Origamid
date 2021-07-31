@@ -324,6 +324,32 @@ body {
   font-family: 'Noto Serif', serif;
 }
 
+/* Links */
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  color: #696969;
+}
+
+footer h2 {
+  font-family: 'Noto Serif', serif;
+}
+
+.links {
+  display: block;
+  margin-top: 10px;
+}
+
+.links a {
+  margin-right: 10px;
+}
+
+.links img {
+  width: 24px;
+}
+
 /* Responsive */
 @media screen and (max-width: 900px) {
   #app {
