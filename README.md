@@ -41,17 +41,22 @@ Códigos feitos no curso de VueJs da plataforma Origamid.
 
 ## 👾 Projetos <a id="projetos"></a>
 
-<!-- ### Techno
+### Techno
 
-* Projeto desenvolvido para simular uma loja de informática, com compra de itens utilizando o vue in html nivel básico [Tela de Login](https://github.com/savionascimentodev/Projetos-FrontEnd/tree/main/Login)
+* Projeto desenvolvido para simular uma loja de informática, com compra de itens utilizando o vue in html nivel básico [Techno](https://techno-origamid.vercel.app/)
+para mais detalhes entre no repositório desse projeto [aqui](https://github.com/savionascimentodev/Techno-Origamid)
 
 #### Desktop Screenshot:
 
-<img src="https://github.com/savionascimentodev/Projetos-FrontEnd/blob/main/Login/img/Print-TeladeLogin.png" width="550">
+![image](https://user-images.githubusercontent.com/77630766/127754107-9702a749-dd9c-47cb-b5cb-95743f23eefe.png)
+
+#### Mobile Screenshot:
+
+![image](https://user-images.githubusercontent.com/77630766/127754130-728bb2f5-42e6-4aab-8eb6-01dcb83719c6.png)
 
 <br>
 
-### Adivinhe o Número
+<!-- ### Adivinhe o Número
 
 * Projeto desenvolvido como um mini-game básico onde você deve adivinhar o número que a máquina escolheu e mostra em quantas tentativas você precisou [Adivinhe o numero](https://github.com/savionascimentodev/Projetos-FrontEnd/tree/main/AdivinheNumero)
 
