@@ -36,6 +36,7 @@ Códigos feitos no curso de VueJs da plataforma Origamid.
 - Vários cursos e projetos próprios,
 - Todos muito bem documentados.
 - Apis.
+- Projetos em VueJs
 
 ---
 
